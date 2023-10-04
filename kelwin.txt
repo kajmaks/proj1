@@ -30,7 +30,7 @@ mysql -u root -p // badziwne logowanie xampowe w cmd
 php artisan route:list -v // szczerze nie byłem w stanie znalezc ale isntnieje
 
 
-
+php artisan route:list --path="cos" -v
 
 
 
