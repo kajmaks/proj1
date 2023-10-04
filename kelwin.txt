@@ -1,1 +1,38 @@
 kelvin was here
+
+
+
+
+
+
+git config --global --unset-all
+php artisan route:list --method=POST
+php artisan route:list --path=login
+php artisan route:list --only-vendor
+php artisan route:list --except=vendor
+ls -l
+
+cp .env.example .env
+php artisan key:generate
+php artisan config:cache
+php artisan serve
+echo sometext > file.txt //nadpisanie
+echo sometext >> file.txt //dopisywanie
+
+composer global require laravel/installer //jezeli brak laravela globalnie
+laravel new example-app
+composer create-project laravel/laravel example-app // tez przejdzie jak nie ma global
+
+git status // aby patrzec co skomitowane, changed, deleted
+
+mysql -u root -p // badziwne logowanie xampowe w cmd
+
+php artisan route:list -v // szczerze nie byłem w stanie znalezc ale isntnieje
+
+
+
+
+
+
+
+
